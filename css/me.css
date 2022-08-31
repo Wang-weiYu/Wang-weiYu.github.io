@@ -1,0 +1,26 @@
+
+
+.pic1 {
+    position: absolute;
+    left: 100%;
+    width: 20%;
+    z-index: -999;
+}
+
+@media only screen{
+    @media (max-width: 768px){
+        .pic1 {
+            position: relative;
+            /* left: 0%; */
+            width: 90%;
+            height: auto;
+            left: 5%;
+            /* width: 20%; */
+            /* z-index: -999; */
+            /* display: none; */
+        }
+        
+        
+    }
+}
+    

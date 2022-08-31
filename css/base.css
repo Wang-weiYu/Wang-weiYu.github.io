@@ -1,0 +1,345 @@
+/* public */
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.webcover img{
+    width: 100%;
+    height: 200pt;
+    object-fit: cover;
+}
+
+p{
+    padding: 8px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font:20px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    color: #333;
+    min-width: none;
+}
+
+.w{
+    width: 100%;
+}
+
+.window{
+    width: 60%;
+    margin: 0 auto;
+    position:relative;
+    z-index: -999;
+}
+
+
+.topbar-wrapper{
+
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color:rgb(25,25,32);
+    position: fixed;
+    z-index: 999;
+}
+
+
+.topbar .line{
+    font-size: 20px;
+    color:rgb(85,110,161);
+    margin: 0 8px;
+}
+
+
+.service, .topbar li{
+    float: left;
+}
+
+.topbar a{
+    font-size: 20px;
+    color:rgb(91,112,84);
+    display: block;
+}
+
+.service1{
+    float: right;
+}
+
+a{
+    color: #0000ff;
+}
+
+a:hover{
+    color:rgb(194,212,138);
+}
+
+i{
+    font-style: italic;
+}
+
+b{
+    font-weight: bold;
+}
+
+#current{
+    color:rgb(194,212,138);
+}
+
+
+
+.backToTop{
+    width: 40px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    background: white;
+    background-color: transparent;
+    left: 0%;
+}
+
+.backToTop:hover{
+    font-size: 100px;
+}
+.nav-button{
+  display: none;
+}
+
+
+.fp li{
+    font-size: large;
+}
+
+.fp{
+    position: absolute;
+    left: 15%;
+    width: 70%;
+}
+
+.fp a{
+    color: #0000ff;
+}
+
+.fp a:hover{
+    color: lightblue;
+}
+.pn{
+    position: absolute;
+    left:-32%;
+    width: 40%;
+    min-width: 220px;
+    padding: 20px 0;
+    background: linear-gradient(to bottom,#87cefa,white);
+    z-index: -999;
+    text-align: right;
+}
+
+.pn li a{
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    color: white;
+    margin-right: 0;
+    padding: 0 30px;
+    font-size: 16px;
+}
+
+.pn li a:hover{
+    color: white;
+    background-color: #AFEEEE;
+}
+
+
+@media only screen{
+    @media (max-width: 768px){
+      :root {
+        --size: 100px;
+      }
+      .pn{
+        display: none;
+    }
+      img{
+        width: 100%;
+    }
+    .fp{
+        position: relative;
+        left: 0%;
+        width: 100%;
+    }
+      .window{
+        width: 90%;
+        margin: 0 auto;
+        position:relative;
+        z-index: 99;
+    }
+      
+      
+      .nav-button {
+        display: block;
+        width: 18px;
+        height: 48px;
+        position: relative;
+        float: right;
+        top: 20px;
+        right: 20px;
+        transition: all 0.3s;
+        transform-origin: center;
+      }
+      
+      .nav-button:hover {
+        transform: scale(1.1);
+      }
+
+      .bg{
+        float: left;
+        top: -15px;
+        width: 18px;
+        height: 1px;
+        position: relative;
+        border-radius: 0%;
+        transition-timing-function: ease-out;
+      }
+      
+      .button {
+        top: -30px;
+        right: 10.0px;
+        width: 48px;
+        height: 40px;
+        position: relative;
+        background-color: rgb(25,25,32);
+        transition-timing-function: ease-out;
+        z-index: 9999999999999999;
+      }
+      
+      .bg {
+        background-color: rgba(255, 255, 255, 0.95);
+        transition: transform 1s;
+      }
+      
+      .button {
+        cursor: pointer;
+        outline: none;
+        border: none;
+      }
+      
+      .button::before,
+      .button::after {
+        content: "";
+        display: block;
+        width: 18px;
+        height: 4%;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        transition: all 0.3s;
+        z-index: 9999999999999999;
+      }
+      
+      .button::before {
+        transform: translateY(calc(-0.08 * var(--size)));
+      }
+      
+      .button::after {
+        transform: translateY(calc(0.08 * var(--size)));
+      }
+      
+      .button:hover::before {
+        transform: translateY(calc(0.1 * var(--size)));
+      }
+      
+      .button:hover::after {
+        transform: translateY(calc(-0.1 * var(--size)));
+      }
+      
+      .active .button::before {
+        transform: rotate(45deg);
+      }
+      
+      .active .button::after {
+        transform: rotate(-45deg);
+      }
+      
+      .active .bg {
+        transform: scale(8000);
+      }
+      
+      
+      .service1 {
+        list-style: none;
+        position: fixed;
+        top: -10%;
+        right: 0;
+        bottom: 0;
+        left: 2%;
+        margin: none;
+        height: fit-content;
+        width: fit-content;
+        text-align: center;
+        font-size: 3.6rem;
+        line-height: 6.8rem;
+        display: none;  
+      }
+      
+      .service1 a{
+          font-size: 3.6rem;
+          line-height: 6.8rem;
+          font-weight: bold;
+      }
+
+      
+      .service1 .line{
+          display: none;
+      }
+      
+      .service1 li {
+        /* display: inline; */
+        float: none;
+        animation: hideMenus 0.4s ease-in-out;
+        animation-fill-mode: both;
+        animation-delay: calc(-0.1s * var(--i) + 0.4s);
+      }
+      
+      .active .service1 li{
+        animation: showMenus 0.4s ease-in-out;
+        animation-fill-mode: both;
+        animation-delay: calc(0.1s * var(--i));
+      }
+      
+      @keyframes hideMenus {
+        from {
+          opacity: 1;
+          visibility: visible;
+          transform: translateY(100px);
+        }
+        to {
+          opacity: 0;
+          visibility: hidden;
+          transform: translateY(0px);
+        }
+      }
+      
+      @keyframes showMenus {
+        from {
+          opacity: 0;
+          visibility: hidden;
+          transform: translateY(0px);
+        }
+        to {
+          opacity: 1;
+          visibility: visible;
+          transform: translateY(100px);
+        }
+      }
+          
+    }
+}
+
+

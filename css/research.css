@@ -1,0 +1,38 @@
+.picHubble {
+    position: absolute;
+    /* top:50px; */
+    left: 100%;
+    /* width: 1%; */
+}
+
+.picPV {
+    position: absolute;
+    /* top:900px; */
+    left: 100%;
+    /* width: 1%; */
+}
+
+
+
+
+
+@media only screen{
+    @media (max-width: 768px){
+        .picHubble{
+            position: relative;
+            /* left: 0%; */
+            width: 90%;
+            height: auto;
+            left: 5%;
+        }
+
+        .picPV{
+            position: relative;
+            /* left: 0%; */
+            width: 90%;
+            height: auto;
+            left: 5%;
+        }
+    }
+}
+    
