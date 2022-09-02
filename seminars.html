@@ -77,101 +77,95 @@
 
             <div class="ArXiv">
                 <h1>arXiv I interested everyday</h1>
-                <h2><a href="https://arxiv.org/abs/2208.14901">[ArXiv:2208.14901]</a>The Gravitational-wave Optical Transient Observer (GOTO)</h2>
-                <h3>by <i>Martin J. Dyer</i> et al.</h3>
-                <p>
-                    The Gravitational-wave Optical Transient Observer (GOTO) is a wide-field telescope project focused on detecting optical counterparts to 
-                    gravitational-wave sources. As of 2022 the first two GOTO mounts have been commissioned at the Roque de los Muchachos Observatory on La 
-                    Palma, Canary Islands, and construction of the second node with two additional 8-telescope mounts has begin at Siding Spring Observatory 
-                    in New South Wales, Australia.
-                </p>
+                <h2><a href="https://arxiv.org/abs/2209.00033">[ArXiv:2209.00033]</a>Perturbation Theory Remixed: Improved Nonlinearity Modeling beyond Standard Perturbation Theory</h2>
+                <h3>by <i>Zhenyuan Wang</i> et al.</h3>
 
-                <h2><a href="https://arxiv.org/abs/2208.14931">[ArXiv:2208.14931]</a>Impact of magnetic fields on Population III star formation</h2>
-                <h3>by <i>Cynthia R. Saad</i> et al.</h3>
                 <p>
-                    The theory of the formation of the first stars in the Universe, the so-called Population III (Pop III), has until now largely negelected the 
-                    impact of magnetic fields. They ascertain how the fragmentation properties of primordial protostellar discs are modified if magneto-hydrodynamic 
-                    effects are present. In the present work, they have studied the effect of a magnetic field on the structure and evolution of the discs around
-                    Pop III stars inside a cosmological minihalo of \(M_{\mathrm{halo}} = 1.2 \times 10^6 M_\odot \), a virial radius of 130 pc, and a collapse
-                    (virializaiton) redshift of \(z \sim 25\).
+                    They present a novel nEPT (nth-order Eulerian Perturbation Theory) scheme to model the non-linear density field by the summation up to nth-order density fields 
+                    in perturbation theory. The method can accelerate the forward modeling of the non-linear cosmological density, an indispensable proble of cosmic 
+                    mysteries such as inflation, dark energy, and dark matter.
                 </p>
 
                 <p>
-                    <li>
-                        For the runs without magnetic fields (hereafter termed hydro runs), the Piecewise Parabolic Method (PPM) is used.
-                    </li>
-
-                    <li>
-                        To solve the cosmological MHD equations, the Harten-Lax-van Leer Riemann solver is employed.
-                    </li>
-
-                    <li>
-                        The magnetic field is slowing the collapse. Considering the angular momentum profile, it is evident that the MHD case is particularly 
-                        efficient in transporting angular momentum outwards.
-                    </li>
+                    GridSPT provides a way to compute the matter density field \(\delta \) and the velocity field v of LSS perturbatively by solving the fluid equations.
+                    In the standard practice of SPT, they assume irrotational velocity and expand the density field and the normalized velocity-divergence field. The 
+                    crucial difference between nEPT and the usual PT is that in nEPT, they first compute the nonlinear density up tp a fixed order n, then estimate 
+                    the summary statistics, such as power spectrum and bispectrum, directly from \(\delta\).
                 </p>
 
-                <h2><a href="https://arxiv.org/abs/2208.14974">[ArXiv:2208.14974]</a>Full spectrum fitting with photometry in ppxf: non-parametric star formation history, metallicity and the quenching boundary from 3200 LEGA-C galaxies at redshift z~0.8</h2>
-                <h3>by <i>Michele Cappellari </i></h3>
+                <h2><a href="https://arxiv.org/abs/2209.00043">[ArXiv:2209.00043]</a>A new era of intracluster light studies with JWST</h2>
+                <h3>by <i>Mireia Montesg</i> and <i>Ignacio Trujillo</i></h3>
                 <p>
-                    Updating to the PPXF method. Extract and compare the stellar population using three independent stellar population synthesis (SPS) methos and both
-                    photometric catalogues. 
+                    Still largely unexplored, the diffuse light in cluster of galaxies traces the past and on-going buildup pf these massive structures. They present 
+                    the first comprehensive study of the interacluster light (ICL) of the cluster SMACS-J0723.3-7327 (z=0.39) using the JWST Early Release Observations.
+                </p>
+
+                <h2><a href="https://arxiv.org/abs/2209.00184">[ArXiv:2209.00184]</a>Cosmic voids and the kinetic analysis</h2>
+                <h3>by <i>V.G.Gurzadyan</i> et al.</h3>
+                <p>
+                    The kinetic approach to the formation of the filaments in the large-scale matter distribution in the Universe is considered within the Vlasoc 
+                    formalism. The structures arise due to the self-consistent dynamics, along with the repulsive term in the modified Newtonian gravity which
+                    includes the cosmological constant. That modified gravity enables one to describe the Hubble tension as a result of two flows, the local and 
+                    global ones. The emergence of two-dimensional structures as Zeldovich pancakes is currently associated with density perturbations, whose growth 
+                    is described by classical or weakly relativistic hydrodynamics, without considering the role of gravity. 
                 </p>
 
                 <p>
                     <li>
-                        The PPXF software is available from <a href="https://pypi.org/project/ppxf/">https://pypi.org/project/ppxf/</a>. The PPXF package contains a Python
-                        implementation of the Penelized PiXel-Fitting (pPXF) method to fit the stellar and gas kinematics, as well as the stellar population and the 
-                        photometry (SED) of galaxies.
+                        Within the formalism of the Vlasov equation - can also lead to similar filamentary structures.
                     </li>
                     <li>
-                        PPXF method, which has been used to measure stellar and gas kinematics as well as the formation history (SFH) and chemical composition of galaxies.
-                    </li>
-                    <li>
-                        Backage other: HYPERZ, BPZ, LEPHARZ, ZEBEA and EAZY. These methods are conceptually similar to the template-based spectral fitting ones used for nearby galaxies,
-                        however, they all adopt a Bayesian approach, instead of a least-square fitting one. This makes the codes simpler and allows for easy inclusion of 
-                        priors on galaxy parameters or non-Gaussian uncertainties.
-                    </li>
-                    <li>
-                        Some fot the photometric-redshift methods were subsequently extended and new software were develepoed to fit spectra together with the photometry, while
-                        still retaining the same Bayesian approach. FAST, BESGLE, BAGPIPES the code described by Mendel et al. and PROSPECTOR.
+                        A kinetic model and revealed the occurrence of semiperiodicity of the arisen strucutres - voids - separated by two-dimensional surfaces (walls).
                     </li>
                 </p>
 
-                <h2><a href="https://arxiv.org/abs/2208.14978">[ArXiv:2208.14978]</a>Primordial black holes and gravitational waves from dissipation during inflation</h2>
-                <h3>by <i>Guillermo Ballesteros</i>et al.</h3>
+                <h2><a href="https://arxiv.org/abs/2209.00270">[ArXiv:2209.00270]</a>The spin-up of a star gaining mass in a close binary system on the thermal time scale</h2>
+                <h3>by <i>Evgeny Staritsin</i></h3>
                 <p>
-                    They study the generation of a localized peak in the primordial spectrum of curvature perturbations
-                    from a transient dissipative phase during inflation, leading to a large population of primordial black holes. The enhancement of the power spectrum
-                    occurs due to stochastic thermal noise sourcing curvature fluctuations.
+                    The mass-transfer phase in a massive close binary system in the Hertzprung-gap is accompanied by the spinning up of the accreting component. The mass and 
+                    angular momentum of this star increase due to the accretion of part of the matter and the angular momentum lost by the other star due to Roche lobe filling.
+                    Mass transfer in a close binary could be the reason for the rapid rotation of Be stars.
                 </p>
-
-                <p>
-                    In their case, the effect of dissipation on the homegeneous inflaton dynamics can be described under adequate conditions by introducing a dissipative
-                    coefficient \(\Gamma\) in its time evolution.
-                    $$\ddot{\phi} + (3H+\Gamma)\dot{\phi} + V_\phi = 0$$
-                    An enhanced \(\mathcal{P}_{\mathcal{R}}\) can arise in a strongly dissipative regime due to a stochastic source for the fluctuations coming from a 
-                    thermal bath originating from the couplings between the inflaton and other fields that are also responsible for \(\Gamma\). The perturbation equations 
-                    are driven by a source of noise with amplitude \(\sim \sqrt{\Gamma T}\), and so they are significantly enhanced whenever \(\Gamma\) is sufficiently large.
-                    The power spectrum of the comoving curvature perturbation is enhanced thanks to the source \(\delta \rho_r\) (whose value is set by the thermal noise)
-                    in the equation of motion for \(\delta \phi\).
-                </p>
-
                 <p>
                     <li>
-                        Have Analytic solution.
+                        the Hertzsprung Gap is a region of the HR diagram just between the Main Sequence and the Red Giant Branch, and is notable for having almost no stars - hence the term “gap”. In the picture above, it’s represented by the narrowing of the background colour just below the “giants” grouping of stars.
+                        from <a href="https://astroquizzical.com/astroquizzical/what-is-the-hertzsprung-gap-and-what-happens-to#:~:text=The%20Hertzsprung%20Gap%20is%20a%20feature%20within%20the,began%20to%20take%20his%20name%20as%20a%20descriptor.">What's the Hertzsprung Gap?</a>
+                    </li>
+                    <li>
+                        The Roche lobe is the region around a star in a binary system within which orbiting material is gravitationally bound to that star. It is an approximately teardrop-shaped region bounded by a critical gravitational equipotential, with the apex of the teardrop pointing towards the other star (the apex is at the L1 Lagrangian point of the system).
+                        from <a href="https://handwiki.org/wiki/Physics:Roche_lobe">Physics:Roche lobe</a>
+                    </li>
+                    <li>
+                        Be star.
+                    </li>
+                    <li>
+                        Critical rotation can be characterised by the critical rate of surface rotation and the subcritical rotation of the inner layers.
+                    </li>
+                    <li>
+                        During the mass-transfer phase, the mass of the star increases by a factor \(\sim 1.5\), and the angular momentum increases by a factor of \(\sim 50\).
                     </li>
                 </p>
 
-                <h2><a href="https://arxiv.org/abs/2208.14469">[ArXiv:2208.14469]</a>Exploiting stellar explosion induced by the QCD phase transition in large-scale neutrino detectors</h2>
-                <h3>by <i>Tetyana Pitik</i>et al.</h3>
+                <h2><a href="https://arxiv.org/abs/2209.00589">[ArXiv:2209.00589]</a>The spin-up of a star gaining mass in a close binary system on the thermal time scale</h2>
+                <h3>by <i>Evgeny Staritsin</i></h3>
+                <p>
+                    Kasner cosmology is a vaccum and anisotropically expanding spacetime in the general relativity context. The bumblebee model, where the Lorentz symmetry
+                    is spontaneously broken. The origin of the anisotropy in this cosmological model could be in the Lorentz symmetry breaking.
+                </p>
 
                 <p>
-                    The centers of the core-collapse supernovae are one of the densest environments in the Universe. Under such conditions, it is conceivable that a 
-                    first-order phase transition from ordinary unclear matter to the quark-gluon plasma occurs. This transistion releases a large amount of latent heat
-                    that can drive a supernova explosion and may imprint a sharp signature in the neutrino signal. They show how this snap featur, if observed at 
-                    large-scale neutrino detectors, can set competitive limits on neutrino masses and assist the localization of the supernova via triangulation.
+                    <li>
+                        Bianchi I cosmology.
+                    </li>
+                    <li>
+                        Kasner geometry was obtained in 1921 from a problem of embedding geometries into a flat and higher dimensional spacetime.
+                    </li>
+                    <li>
+                        The weirdness of the Kasner cosmological model is due to the fact that such spacetime is a vaccum and anisotropic solution of Einstein's field 
+                        equations that describes an expanding universe.
+                    </li>
                 </p>
+                
     
     </div>
     <a style="display: none; font-size: 40px;" href = "javascript:;" class="backToTop" title="Back to Top" id="backToTop"> &#8682; </a>
