@@ -1,20 +1,19 @@
-.fp{
+/* .fp{
     position: absolute;
     left: 0%;
     width: 100%;
-} 
+}  */
+
 .ArXiv h1{
     font-size: 50px;
     color: rgb(255,255,255);
     background-color: rgb(179,27,27);
-    /* background: linear-gradient(to bottom,rgb(179,27,27),white); */
 }
 
 .IGive h1{
     font-size: 50px;
     color: rgb(255,255,255);
     background-color: rgb(67,71,81);
-    /* background: linear-gradient(to bottom,rgb(179,27,27),white); */
 }
 
 
@@ -22,12 +21,10 @@
     font-size: 50px;
     color: rgb(255,255,255);
     background-color: rgb(219,185,157);
-    /* background: linear-gradient(to bottom,rgb(179,27,27),white); */
 }
 
 .Week h1{
     font-size: 50px;
     color: rgb(255,255,255);
     background-color: rgb(153,170,202);
-    /* background: linear-gradient(to bottom,rgb(179,27,27),white); */
 }
