@@ -1,4 +1,4 @@
-window.onload = function(){
+window.onload = function (){
     var topbtn = document.getElementById("backToTop");
     var timer = null;
     var pagellookheight = document.documentElement.clientHeight;

@@ -1,0 +1,24 @@
+.fp{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+} 
+
+
+.list{
+    height: 10%;
+    
+}
+
+.arxivEveryDayButtunPrevious{
+    float: left;
+}
+
+.arxivEveryDayMostCurrent{
+    float: right;
+    right: 30%;
+}
+
+.arxivEveryDayButtunNext{
+    float: right;
+}
